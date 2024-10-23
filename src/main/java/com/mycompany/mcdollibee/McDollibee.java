@@ -26,9 +26,6 @@ public class McDollibee extends JFrame implements ActionListener  {
         setResizable(false);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
        
-        
-        
-
         hdrWelcome = new JLabel("Welcome to McDollibee!", SwingConstants.CENTER);
         hdrWelcome.setBounds(500, 20, 300, 100);
         add(hdrWelcome);
